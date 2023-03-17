@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-  * main - assign a random number to the variable n each time it is executed
+  * main - prints whether the number is negative, positive or zero
   *
   * Return: always 0
   */
@@ -12,12 +12,17 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n>0)
-		printf("%d is positive", n);
-	else if (n==0)
-		printf("%d is zero", n);
-	else (n<0);
-		printf("%d is negative", n);
-	printf("\n");
+	if (n > 0)
+	{
+		printf("%d is positive\n", n);
+	{
+	else if (n == 0)
+	{
+		printf("%d is zero\n", n);
+	{
+	else
+	{
+		printf("%d is negative\n", n);
+	{
 	return (0);
 }
