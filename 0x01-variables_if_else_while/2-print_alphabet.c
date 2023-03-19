@@ -11,6 +11,7 @@ int main(void)
 	{
 		int Lc = 'a';
 		while (Lc <= 'z')
+
 			{
 				putchar(Lc);
 				Lc += 1;
