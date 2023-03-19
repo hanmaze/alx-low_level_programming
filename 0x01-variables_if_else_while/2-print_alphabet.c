@@ -1,22 +1,19 @@
 #include <stdio.h>
-#include <ctype.h>
 
 /**
-*main - Write a program that prints the alphabet in lowercase.
+*main - a program that prints the alphabet in lowercase.
 *Return: 0 (success)
 *
 */
 
 int main(void)
-	{
-		int Lc = 'a';
-		while (Lc <= 'z')
+{
+	char Lt;
 
-			{
-				putchar(Lc);
-				Lc += 1;
-			}
+	for(Lt ='a'; Lt <= 'z'; Lt++)
+		putchar(Lt);
+	
+	putchar('\n');
 
-		putchar('\n');
-		return (0);
-	}
+	return (0);
+}
