@@ -2,7 +2,8 @@
 
 /**
 *main - main function
-*print-alphabet: prints the alphabet in lowercase, followed by a new line.
+*
+*description: prints the alphabet in lowercase, followed by a new line.
 *Return : always 0
 */
 
