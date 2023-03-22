@@ -6,7 +6,8 @@ include "main.h"
  */
 void print_to_98(int n)
 {
-	int i, j;
+	int i;
+	int j;
 
 	if (n <= 98)
 	{
