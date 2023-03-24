@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-*print_most_numbers - prints the numbers 01356789.
+*print_most_numbers - prints the numbers 01356789
+*Retur: void
 */
 
 void print_most_numbers(void)
