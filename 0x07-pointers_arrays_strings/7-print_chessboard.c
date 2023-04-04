@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* print_chessboard - function that prints the chessboard
-* @a: array
-* Return; always 0 (success)
+*print_chessboard - function that prints the chessboard
+*@a: array
+*Return: always 0 (success)
 */
 
 void print_chessboard(char (*a)[8])
